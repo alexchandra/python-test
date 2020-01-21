@@ -3,4 +3,4 @@ python:
   - "3.7.3"
 cache: pip
 script:
-  - python app.py
+  - FLASK_APP=app.py flask run
